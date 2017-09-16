@@ -71,7 +71,7 @@ img {
   width: 100%
 }
 
-h1, h2, h3 {
+h1, h2 {
   text-align: center;
   padding-top: .5em;
   padding-bottom: .5em;
@@ -82,7 +82,7 @@ h1 {
   font-size: 3em;
 }
 
-h2, h3 {
+h2 {
   font-family: 'Cormorant', serif;
   font-size: 1.5em;
 }
@@ -92,8 +92,17 @@ h2, h3 {
 
 @media(min-width: 681px) {
   /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+  h1 {
+    font-size: 4.5em;
+  }
+  h2 {
+    font-size: 2.4em;
+  }
 }
 
 @media(min-width: 729px) {
   /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+  h2 {
+    padding: 2% 25% 0 25%;
+  }
 }
